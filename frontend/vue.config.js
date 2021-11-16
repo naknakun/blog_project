@@ -10,5 +10,10 @@ module.exports = {
       },
     },
   },
+
   outputDir: '../backend/public',
+
+  transpileDependencies: [
+    'vuetify'
+  ]
 };
